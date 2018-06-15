@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:Excel_Transformation"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+    <UniformGrid Columns="2">
+        <Button Content="Choose File"  Click="Choose_Click"/>
+        <Button Grid.Column="1" Content="Process data" Click="Process_Click"/>
+    </UniformGrid>
 </Window>
